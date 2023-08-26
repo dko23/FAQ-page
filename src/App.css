@@ -10,7 +10,8 @@
 
 .navbar-brand{
   font-weight: bold;
-  text-decoration-line: none;
+  text-decoration: none !important;
+
   
 }
 .coin {
@@ -75,4 +76,23 @@ width: 300px;
   margin: 10px 0;
   cursor: pointer;
   border-radius: 15px;
+}
+
+
+
+
+.navbar-nav .nav-link {
+  color: #333; 
+  margin: 0 10px; 
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold; 
+ 
+}
+
+.navbar{
+  background-color: rgb(245, 215, 250);
+
 }
